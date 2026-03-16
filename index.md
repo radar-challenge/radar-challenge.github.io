@@ -143,30 +143,30 @@ Top-performing teams will receive **certificates**, and outstanding submissions 
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: flex-start; align-items: flex-start;">
 
-  <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover;">
+  <div style="max-width: 180px; text-align: center;">
+    <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 100%; max-width: 150px; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Hieu-Thi Luong</strong><br>
     Fortemedia, Singapore<br>
     <em>Challenge Lead Organizer</em><br>
     <a href="mailto:hieuthiluong@fortemedia.com">hieuthiluong@fortemedia.com</a></p>
   </div>
 
-  <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/xuechen-liu.jpg" alt="Asst. Prof. Xuechen Liu" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover;">
+  <div style="max-width: 180px; text-align: center;">
+    <img src="/assets/images/organizers/xuechen-liu.jpg" alt="Asst. Prof. Xuechen Liu" style="width: 100%; max-width: 150px; border-radius: 8px; object-fit: cover;">
     <p><strong>Asst. Prof. Xuechen Liu</strong><br>
     Xi'an Jiaotong-Liverpool University, China<br>
     <em>Co-organizer</em></p>
   </div>
 
-  <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/ivan-kukanov.jpg" alt="Dr. Ivan Kukanov" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover;">
+  <div style="max-width: 180px; text-align: center;">
+    <img src="/assets/images/organizers/ivan-kukanov.jpg" alt="Dr. Ivan Kukanov" style="width: 100%; max-width: 150px; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Ivan Kukanov</strong><br>
     KLASS Engineering &amp; Solutions, Singapore<br>
     <em>Co-organizer</em></p>
   </div>
 
-  <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/kongaik-lee.jpg" alt="Assoc. Prof. Kong-Aik Lee" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover;">
+  <div style="max-width: 180px; text-align: center;">
+    <img src="/assets/images/organizers/kongaik-lee.jpg" alt="Assoc. Prof. Kong-Aik Lee" style="width: 100%; max-width: 150px; border-radius: 8px; object-fit: cover;">
     <p><strong>Assoc. Prof. Kong-Aik Lee</strong><br>
     The Hong Kong Polytechnic University, Hong Kong SAR, China<br>
     <em>Advisor</em></p>
