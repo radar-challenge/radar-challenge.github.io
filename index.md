@@ -34,7 +34,7 @@ Registration deadline: April 10, 2026
 
 We welcome both academic and industry teams. Individual researchers are also encouraged to participate.
 
----
+
 
 ## Timeline
 - **2026-03-15**: ~~Challenge announcement~~
@@ -46,6 +46,15 @@ We welcome both academic and industry teams. Individual researchers are also enc
 - **2026-06-15**: Camera-ready GC paper submission  
 - **2026-11-09**: APSIPA conference presentation (Hanoi, Vietnam)
 
+
+
+## Contact
+
+For questions please usse [GitHub Discussion](https://github.com/radar-challenge/radar-challenge.github.io/discussions)
+
+We strongly encourage participants to use GitHub Discussions so answers benefit all teams.
+
+
 ---
 
 ## How to Get Started
@@ -55,15 +64,7 @@ We welcome both academic and industry teams. Individual researchers are also enc
 4. **Use the baseline system and inference script** (to be released) as a reference for data format and scoring.
 5. **Submit your scores and system description** according to the challenge instructions and deadlines.
 
----
 
-## Contact
-
-For questions please usse [GitHub Discussion](https://github.com/radar-challenge/radar-challenge.github.io/discussions)
-
-We strongly encourage participants to use GitHub Discussions so answers benefit all teams.
-
----
 
 ## Task Summary
 
@@ -95,7 +96,6 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
   - Participants may use **any publicly available datasets** (respecting licenses) that are accessible to all.
   - Use of LlamaPartialSpoof and LibriTTS (dev/test sets and derivatives) is not allowed, as they are used to build the development set.
 
----
 
 ## Media Transformations
 
@@ -130,7 +130,7 @@ Some transformations in the evaluation set** will not appear in the development 
 - Participants must submit one detection score per evaluation utterance (higher scores ⇒ higher confidence that the sample is spoofed).
 - Leaderboard rankings are based on EER, with additional metrics possibly reported for analysis.
 
----
+
 
 ## Awards
 
@@ -143,7 +143,7 @@ Top-performing teams will receive certificates, and outstanding submissions will
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: flex-start; align-items: flex-start;">
 
-  <div style="max-width: 180px; text-align: center;">
+  <div style="max-width: 160px; text-align: center;">
     <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Hieu-Thi Luong</strong><br>
     Fortemedia, Singapore<br>
@@ -151,21 +151,21 @@ Top-performing teams will receive certificates, and outstanding submissions will
     <a href="mailto:hieuthiluong@fortemedia.com">hieuthiluong@fortemedia.com</a></p>
   </div>
 
-  <div style="max-width: 180px; text-align: center;">
+  <div style="max-width: 160px; text-align: center;">
     <img src="/assets/images/organizers/xuechen-liu.jpg" alt="Asst. Prof. Xuechen Liu" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
     <p><strong>Asst. Prof. Xuechen Liu</strong><br>
     Xi'an Jiaotong-Liverpool University, China<br>
     <em>Co-organizer</em></p>
   </div>
 
-  <div style="max-width: 180px; text-align: center;">
+  <div style="max-width: 160px; text-align: center;">
     <img src="/assets/images/organizers/ivan-kukanov.jpg" alt="Dr. Ivan Kukanov" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Ivan Kukanov</strong><br>
     KLASS Engineering &amp; Solutions, Singapore<br>
     <em>Co-organizer</em></p>
   </div>
 
-  <div style="max-width: 180px; text-align: center;">
+  <div style="max-width: 160px; text-align: center;">
     <img src="/assets/images/organizers/kongaik-lee.jpg" alt="Assoc. Prof. Kong-Aik Lee" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
     <p><strong>Assoc. Prof. Kong-Aik Lee</strong><br>
     The Hong Kong Polytechnic University, Hong Kong SAR, China<br>
@@ -173,9 +173,5 @@ Top-performing teams will receive certificates, and outstanding submissions will
   </div>
 
 </div>
-
----
-
-
 
 
