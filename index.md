@@ -3,7 +3,6 @@ title: "RADAR Challenge 2026"
 layout: default
 ---
 
-# APSIPA RADAR Challenge 2026
 
 **Task**: Given a speech recording, predict whether it is bonafide or spoofed after unknown media transformations.
 
@@ -16,14 +15,13 @@ This challenge aims to drive research on **generalization under real-world signa
 RADAR is the first challenge specifically designed to evaluate robustness of audio deepfake detection under realistic media processing pipelines.
 
 
-## Quick Updates
-- 2026-03-16 🎉 Landing Page is UP!
-
----
-
 ## Venue
 
 RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.apsipa2026.org/grand_challenges.html) and will be presented at APSIPA ASC 2026 in Hanoi, Vietnam.
+
+
+## Quick Updates
+- 2026-03-16 🎉 Landing Page is UP!
 
 ---
 
@@ -67,14 +65,10 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 
 ---
 
-## Key Idea
+## Task Summary
 - **Task**: Binary classification of speech recordings into **bonafide** vs **spoof**.
 - **Twist**: Both bonafide and spoofed speech are passed through **unknown media processing chains** before evaluation.
 - **Goal**: Develop detection systems **robust to realistic media processing and unseen transformations**.
-
----
-
-## Task Summary
 
 | Item | Description |
 |------|-------------|
@@ -139,12 +133,19 @@ Some transformations in the **evaluation set** will **not appear** in the develo
 
 ---
 
+## Awards
+
+This is an **academic challenge without monetary prizes**.  
+Top-performing teams will receive **certificates**, and outstanding submissions will be **recognized at APSIPA 2026 in Hanoi, Vietnam**.
+
+---
+
 ## Organizers
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: flex-start; align-items: flex-start;">
 
   <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 100%; max-width: 200px; border-radius: 8px; object-fit: cover;">
+    <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 200px; height: 200px; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Hieu-Thi Luong</strong><br>
     Fortemedia, Singapore<br>
     <em>Challenge Lead Organizer</em><br>
@@ -152,34 +153,27 @@ Some transformations in the **evaluation set** will **not appear** in the develo
   </div>
 
   <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/xuechen-liu.jpg" alt="Asst. Prof. Xuechen Liu" style="width: 100%; max-width: 200px; border-radius: 8px; object-fit: cover;">
+    <img src="/assets/images/organizers/xuechen-liu.jpg" alt="Asst. Prof. Xuechen Liu" style="width: 200px; height: 200px; border-radius: 8px; object-fit: cover;">
     <p><strong>Asst. Prof. Xuechen Liu</strong><br>
     Xi'an Jiaotong-Liverpool University, China<br>
     <em>Co-organizer</em></p>
   </div>
 
   <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/ivan-kukanov.jpg" alt="Dr. Ivan Kukanov" style="width: 100%; max-width: 200px; border-radius: 8px; object-fit: cover;">
+    <img src="/assets/images/organizers/ivan-kukanov.jpg" alt="Dr. Ivan Kukanov" style="width: 200px; height: 200px; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Ivan Kukanov</strong><br>
     KLASS Engineering &amp; Solutions, Singapore<br>
     <em>Co-organizer</em></p>
   </div>
 
   <div style="max-width: 220px; text-align: center;">
-    <img src="/assets/images/organizers/kongaik-lee.jpg" alt="Assoc. Prof. Kong-Aik Lee" style="width: 100%; max-width: 200px; border-radius: 8px; object-fit: cover;">
+    <img src="/assets/images/organizers/kongaik-lee.jpg" alt="Assoc. Prof. Kong-Aik Lee" style="width: 200px; height: 200px; border-radius: 8px; object-fit: cover;">
     <p><strong>Assoc. Prof. Kong-Aik Lee</strong><br>
     The Hong Kong Polytechnic University, Hong Kong SAR, China<br>
     <em>Advisor</em></p>
   </div>
 
 </div>
-
----
-
-## Awards
-
-This is an **academic challenge without monetary prizes**.  
-Top-performing teams will receive **certificates**, and outstanding submissions will be **recognized at APSIPA 2026 in Hanoi, Vietnam**.
 
 ---
 

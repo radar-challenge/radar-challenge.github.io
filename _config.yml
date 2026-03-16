@@ -1,0 +1,29 @@
+title: "RADAR Challenge 2026"
+description: "APSIPA RADAR Challenge: Robust Audio Deepfake Recognition under Media Transformations"
+url: "https://radar-challenge.github.io"
+baseurl: ""
+
+theme: minima
+
+markdown: kramdown
+
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - docs/
+  - .DS_Store
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
