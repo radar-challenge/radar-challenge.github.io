@@ -3,7 +3,7 @@ description: "APSIPA RADAR Challenge: Robust Audio Deepfake Recognition under Me
 url: "https://radar-challenge.github.io"
 baseurl: ""
 
-theme: jekyll-theme-cayman
+theme: minima
 
 markdown: kramdown
 
