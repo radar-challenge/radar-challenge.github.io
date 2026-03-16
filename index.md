@@ -8,9 +8,9 @@ layout: default
 
 ## Robust Audio Deepfake Recognition under Media Transformations
 
-The **RADAR Challenge 2026** is an APSIPA Grand Challenge on **robust audio deepfake detection** in realistic media conditions. Participants must determine whether a speech recording is **bonafide (real)** or **spoofed (synthetic)** after **unknown media transformations** such as codec compression, resampling, noise, background music, and room effects.
+The RADAR Challenge 2026 is an APSIPA Grand Challenge on robust audio deepfake detection in realistic media conditions. Participants must determine whether a speech recording is bonafide (real) or spoofed (synthetic) after unknown media transformations such as codec compression, resampling, noise, background music, and room effects.
 
-This challenge aims to drive research on **generalization under real-world signal degradations** and establish a benchmark for **media-robust audio deepfake detection**.
+This challenge aims to drive research on generalization under real-world signal degradations and establish a benchmark for media-robust audio deepfake detection.
 
 RADAR is the first challenge specifically designed to evaluate robustness of audio deepfake detection under realistic media processing pipelines.
 
@@ -21,7 +21,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 
 ## Quick Updates
-- 2026-03-16 🎉 Landing Page is UP!
+- 2026-03-16 Landing Page is UP! 🎉
 
 ---
 
@@ -83,17 +83,17 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 ## Dataset & Protocol
 
 - **Development set**
-  - English speech derived from **LlamaPartialSpoof** with **additional media transformations** applied.
-  - Designed to help participants **develop and test robustness** to various signal degradations.
+  - English speech derived from **LlamaPartialSpoof** with additional media transformations applied.
+  - Designed to help participants develop and test robustness to various signal degradations.
 
 - **Evaluation set**
-  - Multi-language speech (including English) with **unknown combinations of transformations**.
-  - **No labels** are provided; participants submit **detection scores** per utterance.
+  - Multi-language speech (including English) with unknown combinations of transformations.
+  - No labels are provided; participants submit detection scores per utterance.
 
 - **Training data policy**
   - No official training set is provided.
-  - Participants may use **any publicly available datasets** (respecting licenses) that are **accessible to all**.
-  - Use of **LlamaPartialSpoof** and **LibriTTS** (dev/test sets and derivatives) is **not allowed**, as they are used to build the development set.
+  - Participants may use **any publicly available datasets** (respecting licenses) that are accessible to all.
+  - Use of LlamaPartialSpoof and LibriTTS (dev/test sets and derivatives) is not allowed, as they are used to build the development set.
 
 ---
 
@@ -120,22 +120,22 @@ Each utterance in the development and evaluation sets may undergo one or more of
   - Dynamic range compression  
   - Bandwidth limitation
 
-Some transformations in the **evaluation set** will **not appear** in the development set, explicitly testing **generalization**. The number and combination of transformations per utterance is randomly sampled to emulate **diverse real-world pipelines**.
+Some transformations in the evaluation set** will not appear in the development set, explicitly testing generalization. The number and combination of transformations per utterance is randomly sampled to emulate diverse real-world pipelines.
 
 ---
 
 ## Evaluation
 
 - **Primary metric**: **Equal Error Rate (EER)** on the evaluation set.
-- Participants must submit **one detection score per evaluation utterance** (higher scores ⇒ higher confidence that the sample is spoofed).
-- Leaderboard rankings are based on **EER**, with additional metrics possibly reported for analysis.
+- Participants must submit one detection score per evaluation utterance (higher scores ⇒ higher confidence that the sample is spoofed).
+- Leaderboard rankings are based on EER, with additional metrics possibly reported for analysis.
 
 ---
 
 ## Awards
 
-This is an **academic challenge without monetary prizes**.  
-Top-performing teams will receive **certificates**, and outstanding submissions will be **recognized at APSIPA 2026 in Hanoi, Vietnam**.
+This is an academic challenge without monetary prizes.  
+Top-performing teams will receive certificates, and outstanding submissions will be recognized at APSIPA 2026 in Hanoi, Vietnam.
 
 ---
 
