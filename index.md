@@ -6,6 +6,8 @@ layout: default
 
 **Task**: Given a speech recording, predict whether it is bonafide or spoofed after unknown media transformations.
 
+---
+
 ## Robust Audio Deepfake Recognition under Media Transformations
 
 The RADAR Challenge 2026 is an APSIPA Grand Challenge on robust audio deepfake detection in realistic media conditions. Participants must determine whether a speech recording is bonafide (real) or spoofed (synthetic) after unknown media transformations such as codec compression, resampling, noise, background music, and room effects.
@@ -21,6 +23,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 
 ## Quick Updates
+- ...
 - 2026-03-16 Landing Page is UP! 🎉
 
 ---
@@ -38,7 +41,8 @@ We welcome both academic and industry teams. Individual researchers are also enc
 
 ## Timeline
 - **2026-03-15**: ~~Challenge announcement~~
-- ➤ **2026-03-25**: Development data release  
+- ➤ **2026-03-25**: Development data release
+- **2026-04-13**: Registration Deadline  
 - **2026-04-15**: Evaluation data release  
 - **2026-04-25**: Result submission deadline  
 - **2026-05-10**: Paper submission  
@@ -50,7 +54,7 @@ We welcome both academic and industry teams. Individual researchers are also enc
 
 ## Contact
 
-For questions please usse [GitHub Discussion](https://github.com/radar-challenge/radar-challenge.github.io/discussions)
+For questions please use [GitHub Discussion](https://github.com/radar-challenge/radar-challenge.github.io/discussions)
 
 We strongly encourage participants to use GitHub Discussions so answers benefit all teams.
 
@@ -135,6 +139,7 @@ Some transformations in the evaluation set** will not appear in the development 
 ## Awards
 
 This is an academic challenge without monetary prizes.  
+
 Top-performing teams will receive certificates, and outstanding submissions will be recognized at APSIPA 2026 in Hanoi, Vietnam.
 
 ---
@@ -148,7 +153,6 @@ Top-performing teams will receive certificates, and outstanding submissions will
     <p><strong>Dr. Hieu-Thi Luong</strong><br>
     Fortemedia, Singapore<br>
     <em>Challenge Lead Organizer</em><br>
-    <a href="mailto:hieuthiluong@fortemedia.com">hieuthiluong@fortemedia.com</a></p>
   </div>
 
   <div style="max-width: 160px; text-align: center;">
