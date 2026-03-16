@@ -66,18 +66,17 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 ---
 
 ## Task Summary
-- **Task**: Binary classification of speech recordings into **bonafide** vs **spoof**.
-- **Twist**: Both bonafide and spoofed speech are passed through **unknown media processing chains** before evaluation.
-- **Goal**: Develop detection systems **robust to realistic media processing and unseen transformations**.
 
 | Item | Description |
 |------|-------------|
-| Task | Binary classification |
+| Task | Binary classification (bonafide vs spoof) |
 | Input | Speech waveform |
+| Twist | Speech are passed through unknown media processing chains |
 | Output | Spoof detection score |
 | Metric | Equal Error Rate (EER) |
 | Training data | Open (public datasets only) |
 | Evaluation | Blind test set |
+| Goal | Robust dectection systems for realistic media processing |
 
 ---
 
