@@ -152,7 +152,7 @@ Top-performing teams will receive certificates, and outstanding submissions will
     <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
     <p><strong>Dr. Hieu-Thi Luong</strong><br>
     Fortemedia, Singapore<br>
-    <em>Challenge Lead Organizer</em><br>
+    <em>Challenge Lead Organizer</em></p>
   </div>
 
   <div style="max-width: 160px; text-align: center;">
