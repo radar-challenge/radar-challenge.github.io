@@ -3,10 +3,23 @@ title: "RADAR Challenge 2026"
 layout: default
 ---
 
+<style>
+  /* Works with or without a theme wrapper like `.page-content`. */
+  h2, .page-content h2 { text-align: center; }
+  p, .page-content p { text-align: justify; text-justify: inter-word; }
+
+  /* Keep organizer cards readable (not justified). */
+  .organizers p, .page-content .organizers p { text-align: center; }
+</style>
+
 
 **Task**: Given a speech recording, predict whether it is bonafide or spoofed after unknown media transformations.
 
----
+<p style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/logo.png" alt="RADAR Challenge 2026 Logo" style="max-width: 200px; width: 100%; height: auto;">
+</p>
+
+
 
 ## Robust Audio Deepfake Recognition under Media Transformations
 
@@ -19,7 +32,7 @@ RADAR is the first challenge specifically designed to evaluate robustness of aud
 
 ## Venue
 
-RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.apsipa2026.org/grand_challenges.html) and will be presented at APSIPA ASC 2026 in Hanoi, Vietnam.
+RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.apsipa2026.org/grand_challenges.html) and will be presented at **APSIPA ASC 2026 in Hanoi, Vietnam**.
 
 
 ## Quick Updates
@@ -33,15 +46,17 @@ Please register your team using the registration form:
 
 - [Register for RADAR Challenge 2026 (to be added)]()
 
-Registration deadline: April 10, 2026
+Registration deadline: April 10, 2026.
+
+By registering, you agree to the [Terms & Conditions](/terms).
 
 We welcome both academic and industry teams. Individual researchers are also encouraged to participate.
 
 
 
 ## Timeline
-- **2026-03-15**: ~~Challenge announcement~~
-- ➤ **2026-03-25**: Development data release
+- **2026-03-15: Challenge announcement**
+- •➤ **2026-03-25**: Development data release
 - **2026-04-13**: Registration Deadline  
 - **2026-04-15**: Evaluation data release  
 - **2026-04-25**: Result submission deadline  
@@ -134,7 +149,11 @@ Some transformations in the evaluation set** will not appear in the development 
 - Participants must submit one detection score per evaluation utterance (higher scores ⇒ higher confidence that the sample is spoofed).
 - Leaderboard rankings are based on EER, with additional metrics possibly reported for analysis.
 
+## Baseline systems and Example Code
 
+We will release one or more baseline systems to help participants get started and to illustrate the expected data pipeline and submission format.
+
+Organizers may also submit baseline scores and a description paper for reference. Any results submitted by organizers will be **excluded** from the final ranking.
 
 ## Awards
 
@@ -146,7 +165,7 @@ Top-performing teams will receive certificates, and outstanding submissions will
 
 ## Organizers
 
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: flex-start; align-items: flex-start;">
+<div class="organizers" style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: flex-start; align-items: flex-start;">
 
   <div style="max-width: 160px; text-align: center;">
     <img src="/assets/images/organizers/hieuthi-luong.jpg" alt="Dr. Hieu-Thi Luong" style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
