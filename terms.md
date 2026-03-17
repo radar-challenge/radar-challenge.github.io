@@ -1,5 +1,5 @@
 ---
-title: "RADAR Challenge 2026 – Terms & Conditions"
+title: "Terms & Conditions"
 layout: default
 ---
 

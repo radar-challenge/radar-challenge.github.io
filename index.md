@@ -13,7 +13,7 @@ layout: default
 </style>
 
 
-**Task**: Given a speech recording, predict whether it is bonafide or spoofed after unknown media transformations.
+**Task**: Given a speech recording, predict whether it is real or fake (synthetic) after unknown media transformations.
 
 <p style="text-align: center; margin: 2rem 0;">
   <img src="/assets/images/logo.png" alt="RADAR Challenge 2026 Logo" style="max-width: 512px; width: 100%; height: auto;">
@@ -37,6 +37,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- 2026-03-17 Registration from is ready
 - 2026-03-16 Landing Page is UP! 🎉
 
 ---
@@ -44,19 +45,15 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 ## Registration
 Please register your team using the registration form:
 
-- [Register for RADAR Challenge 2026 (to be added)]()
+- [Register for RADAR Challenge 2026](https://forms.cloud.microsoft/r/ngGcR2zZJM)
 
-Registration deadline: April 10, 2026.
-
-By registering, you agree to the [Terms & Conditions](/terms).
+Registration deadline: **April 13, 2026**. By registering, you agree to the [Terms & Conditions](/terms).
 
 We welcome both academic and industry teams. Individual researchers are also encouraged to participate.
 
-
-
 ## Timeline
 - **2026-03-15: Challenge announcement**
-- •••➤ **2026-03-25**: Development data release
+- ➤ **2026-03-25**: Development data release
 - **2026-04-13**: Registration Deadline  
 - **2026-04-15**: Evaluation data release  
 - **2026-04-25**: Result submission deadline  
@@ -139,7 +136,7 @@ Each utterance in the development and evaluation sets may undergo one or more of
   - Dynamic range compression  
   - Bandwidth limitation
 
-Some transformations in the evaluation set** will not appear in the development set, explicitly testing generalization. The number and combination of transformations per utterance is randomly sampled to emulate diverse real-world pipelines.
+Some transformations in the evaluation set will not appear in the development set, explicitly testing generalization. The number and combination of transformations per utterance is randomly sampled to emulate diverse real-world pipelines.
 
 
 ## Evaluation
@@ -148,11 +145,11 @@ Some transformations in the evaluation set** will not appear in the development 
 - Participants must submit one detection score per evaluation utterance (higher scores ⇒ higher confidence that the sample is spoofed).
 - Leaderboard rankings are based on EER, with additional metrics possibly reported for analysis.
 
-## Baseline systems and Example Code
+## Baseline systems
 
 We will release one or more baseline systems to help participants get started and to illustrate the expected data pipeline and submission format.
 
-Organizers may also submit baseline scores and a description paper for reference. Any results submitted by organizers will be **excluded** from the final ranking.
+Organizers may also submit scores and description papers to guide the challenge. Any results submitted by organizers will be **excluded** from the final ranking.
 
 ## Awards
 
