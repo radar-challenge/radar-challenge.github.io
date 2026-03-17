@@ -16,7 +16,7 @@ layout: default
 **Task**: Given a speech recording, predict whether it is bonafide or spoofed after unknown media transformations.
 
 <p style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/images/logo.png" alt="RADAR Challenge 2026 Logo" style="max-width: 200px; width: 100%; height: auto;">
+  <img src="/assets/images/logo.png" alt="RADAR Challenge 2026 Logo" style="max-width: 512px; width: 100%; height: auto;">
 </p>
 
 
@@ -56,7 +56,7 @@ We welcome both academic and industry teams. Individual researchers are also enc
 
 ## Timeline
 - **2026-03-15: Challenge announcement**
-- •➤ **2026-03-25**: Development data release
+- •••➤ **2026-03-25**: Development data release
 - **2026-04-13**: Registration Deadline  
 - **2026-04-15**: Evaluation data release  
 - **2026-04-25**: Result submission deadline  
@@ -141,7 +141,6 @@ Each utterance in the development and evaluation sets may undergo one or more of
 
 Some transformations in the evaluation set** will not appear in the development set, explicitly testing generalization. The number and combination of transformations per utterance is randomly sampled to emulate diverse real-world pipelines.
 
----
 
 ## Evaluation
 
