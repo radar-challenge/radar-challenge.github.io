@@ -23,12 +23,13 @@ layout: default
 
 ## Robust Audio Deepfake Recognition under Media Transformations
 
-The RADAR Challenge 2026 is an APSIPA Grand Challenge on robust audio deepfake detection in realistic media conditions. Participants must determine whether a speech recording is bonafide (real) or spoofed (synthetic) after unknown media transformations such as codec compression, resampling, noise, background music, and room effects.
+The RADAR Challenge 2026 is an APSIPA Grand Challenge on robust audio deepfake detection under realistic media conditions. Participants must determine whether a speech recording is bonafide (real) or spoofed (synthetic) after it has undergone unknown media transformations such as codec compression, resampling, background noise, music mixing, and room effects.
 
-This challenge aims to drive research on generalization under real-world signal degradations and establish a benchmark for media-robust audio deepfake detection.
+While recent advances in speech synthesis and voice conversion have made synthetic speech increasingly realistic, most existing detection benchmarks evaluate systems using clean audio. In practice, however, audio shared through social media, messaging platforms, and online media rarely remains pristine. Instead, it is typically edited, compressed, resampled, or mixed with other sounds before reaching detection systems.
 
-RADAR is the first challenge specifically designed to evaluate robustness of audio deepfake detection under realistic media processing pipelines.
+The RADAR Challenge addresses this gap by evaluating detection models under realistic media processing pipelines. By introducing diverse and partially unseen transformations, the challenge emphasizes robustness and generalization, which are critical for real-world deployment.
 
+RADAR aims to establish a benchmark for media-robust audio deepfake detection and encourage the development of detection systems that remain reliable beyond controlled laboratory conditions.
 
 ## Venue
 
@@ -37,7 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
-- 2026-03-17 Registration from is ready
+- 2026-03-17 Registration form is ready
 - 2026-03-16 Landing Page is UP! 🎉
 
 ---
@@ -78,7 +79,7 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 2. **Prepare your data pipeline and models** using publicly available training datasets (respecting the training data policy).
 3. **Download the development set** (to be released) once released and evaluate your systems under the provided transformations.
 4. **Use the baseline system and inference script** (to be released) as a reference for data format and scoring.
-5. **Submit your scores and system description** according to the challenge instructions and deadlines.
+5. **Submit your scores and system description** (to be added) according to the challenge instructions and deadlines.
 
 
 
@@ -100,16 +101,16 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 ## Dataset & Protocol
 
 - **Development set**
-  - English speech derived from **LlamaPartialSpoof** with additional media transformations applied.
+  - English speech derived from [LlamaPartialSpoof](https://hieuthi.github.io/sample-LlamaPartialSpoof/) with additional media transformations applied.
   - Designed to help participants develop and test robustness to various signal degradations.
 
 - **Evaluation set**
-  - Multi-language speech (including English) with unknown combinations of transformations.
+  - Multilingual speech data (including English) with unknown combinations of transformations.
   - No labels are provided; participants submit detection scores per utterance.
 
 - **Training data policy**
   - No official training set is provided.
-  - Participants may use **any publicly available datasets** (respecting licenses) that are accessible to all.
+  - Participants may use **any publicly available datasets**, provided they are legally accessible to all participants and comply with their respective licenses.
   - Use of LlamaPartialSpoof and LibriTTS (dev/test sets and derivatives) is not allowed, as they are used to build the development set.
 
 
@@ -136,8 +137,7 @@ Each utterance in the development and evaluation sets may undergo one or more of
   - Dynamic range compression  
   - Bandwidth limitation
 
-Some transformations in the evaluation set will not appear in the development set, explicitly testing generalization. The number and combination of transformations per utterance is randomly sampled to emulate diverse real-world pipelines.
-
+Some transformations used in the evaluation set will not appear in the development set in order to explicitly evaluate model generalization. The number and combination of transformations applied to each utterance are randomly sampled to emulate diverse real-world media processing pipelines. Additional undisclosed transformations with similar characteristics may also be included in the evaluation set to further assess robustness to unseen conditions.
 
 ## Evaluation
 
