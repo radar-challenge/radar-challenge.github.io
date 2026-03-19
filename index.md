@@ -89,19 +89,19 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 |------|-------------|
 | Task | Binary classification (bonafide vs spoof) |
 | Input | Speech waveform |
-| Twist | Speech are passed through unknown media processing chains |
+| Twist | Speech is passed through unknown media processing chains |
 | Output | Spoof detection score |
 | Metric | Equal Error Rate (EER) |
 | Training data | Open (public datasets only) |
 | Evaluation | Blind test set |
-| Goal | Robust dectection systems for realistic media processing |
+| Goal | Robust detection systems for realistic media processing |
 
 ---
 
 ## Dataset & Protocol
 
 - **Development set**
-  - English speech derived from [LlamaPartialSpoof](https://hieuthi.github.io/sample-LlamaPartialSpoof/) with additional media transformations applied.
+  - English speech derived from [LlamaPartialSpoof](https://hieuthi.github.io/sample-LlamaPartialSpoof/) with additional media transformations applied. (Only the full-fake subset of LlamaPartialSpoof will be used)
   - Designed to help participants develop and test robustness to various signal degradations.
 
 - **Evaluation set**
@@ -110,8 +110,7 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 
 - **Training data policy**
   - No official training set is provided.
-  - Participants may use **any publicly available datasets**, provided they are legally accessible to all participants and comply with their respective licenses.
-  - Use of LlamaPartialSpoof and LibriTTS (dev/test sets and derivatives) is not allowed, as they are used to build the development set.
+  - Participants may use any legally accessible public datasets (open/public license) for system development, except LlamaPartialSpoof, LibriTTS dev/test splits, and any derived or overlapping data, as these are used to construct the challenge development set.
 
 
 ## Media Transformations

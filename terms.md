@@ -10,11 +10,13 @@ layout: default
 
 ## Terms & Conditions
 
-By taking part in the APSIPA RADAR Challenge, participants agree to the following terms:
+By taking part in the APSIPA RADAR Challenge 2026, participants agree to the following terms:
 
 ### 1. Challenge data
 
 The organizers will provide a development set and an evaluation set. The development set is for system development and tuning. The evaluation set will contain speech processed with unknown media transformations, and ground-truth labels will not be released to participants.
+
+Any redistribution, public sharing, or release of any part of the development or evaluation data (including ground-truth labels, derived files, or metadata) to any third party is strictly prohibited unless the organizers provide prior written permission.
 
 ### 2. Training data policy
 
