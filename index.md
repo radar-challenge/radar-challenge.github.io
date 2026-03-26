@@ -36,7 +36,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
-- **2026-03-26** The languages of Evaluation data will be **English**, **Mandarin**, **Japanese**, and **Vietnamese**.
+- **2026-03-26** The Evaluation data will include speech in <ins>English</ins>, <ins>Mandarin</ins>, <ins>Japanese</ins>, and <ins>Vietnamese</ins>.
 - **2026-03-25** Phase 1 started! Development data has been sent to registered participants via email. If you didn't received it or registered after this day, please contact organizers via email or Github Discussion.
 - **2026-03-17** Registration form is ready
 - **2026-03-16** Landing Page is UP! 🎉
