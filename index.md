@@ -13,13 +13,11 @@ layout: default
 </style>
 
 
-**Task**: Given a speech recording, predict whether it is real or fake (synthetic) after unknown media transformations.
+**Task**: Given a speech recording, classify it as real (bonafide) or fake (synthetic) under unknown media transformations.
 
 <p style="text-align: center; margin: 2rem 0;">
   <img src="/assets/images/logo.png" alt="RADAR Challenge 2026 Logo" style="max-width: 512px; width: 100%; height: auto;">
 </p>
-
-
 
 ## Robust Audio Deepfake Recognition under Media Transformations
 
@@ -38,6 +36,8 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- 2026-03-26 The languages of Evaluation data will be English, Mandarin, Japanese, and Vietnamese.
+- 2026-03-25 Phase 1 started. Development data has been sent to registered participants via email. If you didn't received it or registered after this day, please contact organizers via email or Github Discussion.
 - 2026-03-17 Registration form is ready
 - 2026-03-16 Landing Page is UP! 🎉
 
@@ -54,10 +54,11 @@ We welcome both academic and industry teams. Individual researchers are also enc
 
 ## Timeline
 - **2026-03-15: Challenge announcement**
-- ➤ **2026-03-25**: Development data release
+- **2026-03-25**: Phase 1 Started: Development data released
+- ➤ **2026-04-10**: Phase 1 Ended: Development submission portal closes
 - **2026-04-13**: Registration Deadline  
-- **2026-04-15**: Evaluation data release  
-- **2026-04-25**: Result submission deadline  
+- **2026-04-15**: Phase 2 Started: Evaluation data released
+- **2026-04-25**: Phase 2 Ended: Evaluation submission portal closes
 - **2026-05-10**: Paper submission  
 - **2026-06-01**: Notification of paper acceptance  
 - **2026-06-15**: Camera-ready GC paper submission  
@@ -67,7 +68,7 @@ We welcome both academic and industry teams. Individual researchers are also enc
 
 ## Contact
 
-For questions please use [GitHub Discussion](https://github.com/radar-challenge/radar-challenge.github.io/discussions)
+For questions please use [GitHub Discussion](https://github.com/radar-challenge/radar-challenge.github.io/discussions) or via email (radarchallenge2026 (at) gmail.com)
 
 We strongly encourage participants to use GitHub Discussions so answers benefit all teams.
 
@@ -105,13 +106,26 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
   - Designed to help participants develop and test robustness to various signal degradations.
 
 - **Evaluation set**
-  - Multilingual speech data (including English) with unknown combinations of transformations.
+  - Multilingual speech data (English, Mandarin, Japanese, and Vietnamese) with unknown combinations of transformations.
   - No labels are provided; participants submit detection scores per utterance.
 
 - **Training data policy**
   - No official training set is provided.
   - Participants may use any legally accessible public datasets (open/public license) for system development, except LlamaPartialSpoof, LibriTTS dev/test splits, and any derived or overlapping data, as these are used to construct the challenge development set.
 
+
+## Phases
+### Phase 1 - Development
+- **2026-03-25 RADAR2026-dev set released (English, no labels, derivative of LlamaPartialSpoof)**
+- 2026-04-01 Development submission portal opens
+- 2026-04-10 Development submission portal closes  
+- 2026-04-13 RADAR2026-dev labels released for analysis and paper writing
+
+### Phase 2 - Evaluation
+- 2025-04-15 RADAR2026-eval set released (multilingual)
+- 2025-04-18 Evaluation submission portal opens
+- 2025-04-25 Evaluation submission portal closes
+- 2025-05-10 Paper Submission Deadline
 
 ## Media Transformations
 
@@ -191,5 +205,13 @@ Top-performing teams will receive certificates, and outstanding submissions will
   </div>
 
 </div>
+
+## FAQs
+
+### Q: Can we use pretrained models (e.g., SSL models) that may have been trained on datasets related to LibriTTS such as MLS?
+
+Yes. Publicly available pretrained models are allowed, even if they were trained on large public speech datasets.
+
+However, participants must not explicitly train or fine-tune models using LibriTTS dev/test splits or any derivatives of the RADAR development or evaluation data.
 
 
