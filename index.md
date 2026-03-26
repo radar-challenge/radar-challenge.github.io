@@ -54,7 +54,7 @@ We welcome both academic and industry teams. Individual researchers are also enc
 
 ## Timeline
 - **2026-03-15: Challenge announcement**
-- **2026-03-25**: Phase 1 Started: Development data released
+- **2026-03-25: Phase 1 Started: Development data released**
 - ➤ **2026-04-10**: Phase 1 Ended: Development submission portal closes
 - **2026-04-13**: Registration Deadline  
 - **2026-04-15**: Phase 2 Started: Evaluation data released
@@ -116,7 +116,7 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 
 ## Phases
 ### Phase 1 - Development
-- **2026-03-25 RADAR2026-dev set released (English, no labels, derivative of LlamaPartialSpoof)**
+- **2026-03-25 RADAR2026-dev set released** (English, no labels, derivative of LlamaPartialSpoof)
 - 2026-04-01 Development submission portal opens
 - 2026-04-10 Development submission portal closes  
 - 2026-04-13 RADAR2026-dev labels released for analysis and paper writing
@@ -205,6 +205,8 @@ Top-performing teams will receive certificates, and outstanding submissions will
   </div>
 
 </div>
+
+---
 
 ## FAQs
 
