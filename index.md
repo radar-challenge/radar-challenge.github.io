@@ -173,8 +173,8 @@ We will release one or more baseline systems to help participants get started an
 
 Organizers may also submit scores and description papers to guide the challenge. Any results submitted by organizers will be **excluded** from the final ranking.
 
-### 01. SSL AASIST Antispoofing
-- The first baseline system that demonstrates expected submission format is available at: https://github.com/radar-challenge/BASELINE-SSL_AASIST
+### 01. [SSL AASIST Antispoofing](https://github.com/radar-challenge/BASELINE-SSL_AASIST)
+The first baseline system that demonstrates expected submission format
 
 ## Awards
 
