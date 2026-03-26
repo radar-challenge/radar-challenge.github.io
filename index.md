@@ -3,6 +3,8 @@ title: "RADAR Challenge 2026"
 layout: default
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
 <style>
   /* Works with or without a theme wrapper like `.page-content`. */
   h2, .page-content h2 { text-align: center; }
@@ -153,10 +155,11 @@ Each utterance in the development and evaluation sets may undergo one or more of
 Some transformations used in the evaluation set will not appear in the development set in order to explicitly evaluate model generalization. The number and combination of transformations applied to each utterance are randomly sampled to emulate diverse real-world media processing pipelines. Additional undisclosed transformations with similar characteristics may also be included in the evaluation set to further assess robustness to unseen conditions.
 
 ## Evaluation
+**Primary metric: Equal Error Rate (EER)** on the evaluation set.
 
-- **Primary metric: Equal Error Rate (EER)** on the evaluation set.
-- Participants must submit one detection score per evaluation utterance (higher scores indicate higher confidence that the sample is spoofed). Leaderboard rankings are based on EER, with additional metrics possibly reported for further analysis.
-- EER is selected due to its simplicity and widespread use in spoofing detection research. While participants are free to interpret their results based on the leaderboard, the organizers do not endorse or take responsibility for any performance claims made based on these results.
+Participants must submit one detection score per evaluation utterance (higher scores indicate higher confidence that the sample is spoofed). Leaderboard rankings are based on EER, with additional metrics possibly reported for further analysis.
+
+EER is selected due to its simplicity and widespread use in spoofing detection research. While participants are free to interpret their results based on the leaderboard, the organizers do not endorse or take responsibility for any performance claims made based on these results.
 
 ## Baseline systems
 
