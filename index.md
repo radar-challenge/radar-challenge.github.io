@@ -154,15 +154,18 @@ Some transformations used in the evaluation set will not appear in the developme
 
 ## Evaluation
 
-- **Primary metric**: **Equal Error Rate (EER)** on the evaluation set.
-- Participants must submit one detection score per evaluation utterance (higher scores ⇒ higher confidence that the sample is spoofed).
-- Leaderboard rankings are based on EER, with additional metrics possibly reported for analysis.
+- **Primary metric: Equal Error Rate (EER)** on the evaluation set.
+- Participants must submit one detection score per evaluation utterance (higher scores indicate higher confidence that the sample is spoofed). Leaderboard rankings are based on EER, with additional metrics possibly reported for further analysis.
+- EER is selected due to its simplicity and widespread use in spoofing detection research. While participants are free to interpret their results based on the leaderboard, the organizers do not endorse or take responsibility for any performance claims made based on these results.
 
 ## Baseline systems
 
 We will release one or more baseline systems to help participants get started and to illustrate the expected data pipeline and submission format.
 
 Organizers may also submit scores and description papers to guide the challenge. Any results submitted by organizers will be **excluded** from the final ranking.
+
+### 01. SSL AASIST Antispoofing
+- The first baseline system that demonstrates expected submission format is available at: https://github.com/radar-challenge/BASELINE-SSL_AASIST
 
 ## Awards
 
