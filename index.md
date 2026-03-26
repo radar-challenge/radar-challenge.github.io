@@ -130,8 +130,14 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 - 2025-05-10 Paper Submission Deadline
 
 ## Media Transformations
+Examples of media transformation
 
-Each utterance in the development and evaluation sets may undergo one or more of the following:
+| Type | Original | Transformed |
+|---|---|---|
+| Bonafide | <audio controls preload="none" src="/assets/audios/bonafide.wav"></audio> | <audio controls preload="none" src="/assets/audios/bonafide_transformed.wav"></audio> |
+| Spoofed | <audio controls preload="none" src="/assets/audios/spoofed.wav"></audio> | <audio controls preload="none" src="/assets/audios/spoofed_transformed.wav"></audio> |
+
+Each utterance in the development and evaluation sets may undergo one or more of the following while maintained their original label (bonafide/spoofed):
 
 - **Signal level operations**
   - Peak level adjustment  
