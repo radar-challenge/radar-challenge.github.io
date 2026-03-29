@@ -123,16 +123,20 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 - 2026-04-10 Development submission portal closes  
 - 2026-04-13 RADAR2026-dev labels released for analysis and paper writing
 
+The development phase is intended to help participants validate their systems and familiarize themselves with the evaluation protocol. Results from Phase 1 (Development) will not affect the final ranking. The top 3 teams in the Development Phase will receive honorary mentions and certificates.
+
 ### Phase 2 - Evaluation
-- 2025-04-15 RADAR2026-eval set released (multilingual)
-- 2025-04-18 Evaluation submission portal opens
-- 2025-04-25 Evaluation submission portal closes
-- 2025-05-10 Paper Submission Deadline
+- 2026-04-15 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
+- 2026-04-18 Evaluation submission portal opens
+- 2026-04-25 Evaluation submission portal closes
+- 2026-05-10 Paper Submission Deadline
+
+Results from Phase 2 (Evaluation) will determine the final ranking. Top-performing teams will be recognized at APSIPA ASC 2026 in Hanoi, Vietnam.
 
 ## Media Transformations
 Examples of media transformation
 
-| Type | Original | Transformed |
+|  | Original | Transformed |
 |---|---|---|
 | Bonafide | <audio controls preload="none" src="/assets/audios/bonafide.wav"></audio> | <audio controls preload="none" src="/assets/audios/bonafide_transformed.wav"></audio> |
 | Spoofed | <audio controls preload="none" src="/assets/audios/spoofed.wav"></audio> | <audio controls preload="none" src="/assets/audios/spoofed_transformed.wav"></audio> |
