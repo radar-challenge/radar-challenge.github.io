@@ -38,6 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-03-31** [Submission Portal](https://www.codabench.org/competitions/15279/) is open for Phase 1. The timeline for Phase 2 and paper submission has been changed/extended.
 - **2026-03-26** The Evaluation data will include speech in <ins>English</ins>, <ins>Mandarin</ins>, <ins>Japanese</ins>, and <ins>Vietnamese</ins>.
 - **2026-03-25** Phase 1 started! Development data has been sent to registered participants via email. If you didn't received it or registered after this day, please contact organizers via email or Github Discussion.
 - **2026-03-17** Registration form is ready
@@ -50,20 +51,29 @@ Please register your team using the registration form:
 
 - [Register for RADAR Challenge 2026](https://forms.cloud.microsoft/r/ngGcR2zZJM)
 
-Registration deadline: **April 13, 2026**. By registering, you agree to the [Terms & Conditions](/terms).
+Registration deadline: **April 15, 2026**. By registering, you agree to the [Terms & Conditions](/terms).
 
 We welcome both academic and industry teams. Individual researchers are also encouraged to participate.
+
+## Submission Portal
+We use Codabench for submissions and the leaderboard:
+
+- [Codabench Competition Portal](https://www.codabench.org/competitions/15279/)
+
+Please register on Codabench as early as possible, as there is a daily limit on the number of submissions.
+
+Note that the submission deadlines and daily submission limits reset according to UTC time.
 
 ## Timeline
 - **2026-03-15: Challenge announcement**
 - **2026-03-25: Phase 1 Started: Development data released**
 - ➤ **2026-04-10**: Phase 1 Ended: Development submission portal closes
-- **2026-04-13**: Registration Deadline  
-- **2026-04-15**: Phase 2 Started: Evaluation data released
-- **2026-04-25**: Phase 2 Ended: Evaluation submission portal closes
-- **2026-05-10**: Paper submission  
-- **2026-06-01**: Notification of paper acceptance  
-- **2026-06-15**: Camera-ready GC paper submission  
+- ~~2026-04-13~~ **2026-04-15**: Registration Deadline  
+- ~~2026-04-15~~ **2026-04-20**: Phase 2 Started: Evaluation data released
+- ~~2026-04-25~~ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
+- ~~2026-05-10~~ **2026-05-15**: Paper submission  
+- ~~2026-06-01~~ **2026-07-15**: Notification of paper acceptance  
+- ~~2026-06-15~~ **2026-07-31**: Camera-ready GC paper submission  
 - **2026-11-09**: APSIPA conference presentation (Hanoi, Vietnam)
 
 
@@ -119,17 +129,17 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 ## Phases
 ### Phase 1 - Development
 - **2026-03-25 RADAR2026-dev set released** (English, no labels, derivative of LlamaPartialSpoof)
-- 2026-04-01 Development submission portal opens
-- 2026-04-10 Development submission portal closes  
+- **2026-04-01 00:00 UTC Development submission portal opens**
+- 2026-04-10 23:59 UTC Development submission portal closes  
 - 2026-04-13 RADAR2026-dev labels released for analysis and paper writing
 
 The development phase is intended to help participants validate their systems and familiarize themselves with the evaluation protocol. Results from Phase 1 (Development) will not affect the final ranking. The top 3 teams in the Development Phase will receive honorary mentions and certificates.
 
 ### Phase 2 - Evaluation
-- 2026-04-15 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
-- 2026-04-18 Evaluation submission portal opens
-- 2026-04-25 Evaluation submission portal closes
-- 2026-05-10 Paper Submission Deadline
+- 2026-04-20 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
+- 2026-04-23 00:00 UTC Evaluation submission portal opens
+- 2026-04-30 23:59 UTC Evaluation submission portal closes
+- 2026-05-15 Paper Submission Deadline
 
 Results from Phase 2 (Evaluation) will determine the final ranking. Top-performing teams will be recognized at APSIPA ASC 2026 in Hanoi, Vietnam.
 
@@ -233,3 +243,17 @@ Yes. Publicly available pretrained models are allowed, even if they were trained
 However, participants must not explicitly train or fine-tune models using LibriTTS dev/test splits or any derivatives of the RADAR development or evaluation data.
 
 
+### Q: Can I use <this dataset> for training?
+
+We only restrict the use of LlamaPartialSpoof, LibriTTS dev/test sets, and their derivatives.
+
+We recognize that some datasets (especially those derived from LibriSpeech/LibriTTS) may contain overlapping speakers or recordings. To avoid unnecessary restrictions, we explicitly allow the use of the following datasets for training, even if partial overlap may exist:
+- LibriTTS (train split)
+- LibriSpeech (train split)
+- Multlingual LibriSpeech (MLS)
+- ASVspoof 2019 LA
+- ASVspoof 2021 LA/DF
+- ASVspoof5 (train split)
+- MLADD
+
+Participants may use these datasets with confidence for training their systems.
