@@ -68,12 +68,12 @@ Note that the submission deadlines and daily submission limits reset according t
 - **2026-03-15: Challenge announcement**
 - **2026-03-25: Phase 1 Started: Development data released**
 - ➤ **2026-04-10**: Phase 1 Ended: Development submission portal closes
-- ~~2026-04-13~~ **2026-04-15**: Registration Deadline  
-- ~~2026-04-15~~ **2026-04-20**: Phase 2 Started: Evaluation data released
-- ~~2026-04-25~~ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
-- ~~2026-05-10~~ **2026-05-15**: Paper submission  
-- ~~2026-06-01~~ **2026-07-15**: Notification of paper acceptance  
-- ~~2026-06-15~~ **2026-07-31**: Camera-ready GC paper submission  
+- ~~--2026-04-13--~~ **2026-04-15**: Registration Deadline  
+- ~~--2026-04-15--~~ **2026-04-20**: Phase 2 Started: Evaluation data released
+- ~~--2026-04-25--~~ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
+- ~~--2026-05-10--~~ **2026-05-15**: Paper submission  
+- ~~--2026-06-01--~~ **2026-07-15**: Notification of paper acceptance  
+- ~~--2026-06-15--~~ **2026-07-31**: Camera-ready GC paper submission  
 - **2026-11-09**: APSIPA conference presentation (Hanoi, Vietnam)
 
 
@@ -129,16 +129,16 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 ## Phases
 ### Phase 1 - Development
 - **2026-03-25 RADAR2026-dev set released** (English, no labels, derivative of LlamaPartialSpoof)
-- **2026-04-01 00:00 UTC Development submission portal opens**
-- 2026-04-10 23:59 UTC Development submission portal closes  
+- **2026-04-01 (00:00 UTC) Development submission portal opens**
+- 2026-04-10 (23:59 UTC) Development submission portal closes  
 - 2026-04-13 RADAR2026-dev labels released for analysis and paper writing
 
 The development phase is intended to help participants validate their systems and familiarize themselves with the evaluation protocol. Results from Phase 1 (Development) will not affect the final ranking. The top 3 teams in the Development Phase will receive honorary mentions and certificates.
 
 ### Phase 2 - Evaluation
 - 2026-04-20 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
-- 2026-04-23 00:00 UTC Evaluation submission portal opens
-- 2026-04-30 23:59 UTC Evaluation submission portal closes
+- 2026-04-23 (00:00 UTC) Evaluation submission portal opens
+- 2026-04-30 (23:59 UTC) Evaluation submission portal closes
 - 2026-05-15 Paper Submission Deadline
 
 Results from Phase 2 (Evaluation) will determine the final ranking. Top-performing teams will be recognized at APSIPA ASC 2026 in Hanoi, Vietnam.
@@ -243,7 +243,7 @@ Yes. Publicly available pretrained models are allowed, even if they were trained
 However, participants must not explicitly train or fine-tune models using LibriTTS dev/test splits or any derivatives of the RADAR development or evaluation data.
 
 
-### Q: Can I use <this dataset> for training?
+### Q: Can I use \[this dataset\] for training?
 
 We only restrict the use of LlamaPartialSpoof, LibriTTS dev/test sets, and their derivatives.
 
