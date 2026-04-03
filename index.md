@@ -38,6 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-04-03** The Phase 1 (Development) is in progress, if you haven't been approved to codabench, contact us asap. You may want to check the [Q&A section](#faqs) as well.
 - **2026-03-31** [Submission Portal](https://www.codabench.org/competitions/15279/) is open for Phase 1. The timeline for Phase 2 and paper submission has been changed/extended.
 - **2026-03-26** The Evaluation data will include speech in <ins>English</ins>, <ins>Mandarin</ins>, <ins>Japanese</ins>, and <ins>Vietnamese</ins>.
 - **2026-03-25** Phase 1 started! Development data has been sent to registered participants via email. If you didn't received it or registered after this day, please contact organizers via email or Github Discussion.
@@ -63,6 +64,8 @@ We use Codabench for submissions and the leaderboard:
 Please register on Codabench as early as possible, as there is a daily limit on the number of submissions.
 
 Note that the submission deadlines and daily submission limits reset according to UTC time.
+
+Only one member per team will be approved on Codabench.
 
 ## Timeline
 - **2026-03-15: Challenge announcement**
@@ -127,7 +130,7 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 
 
 ## Phases
-### Phase 1 - Development
+### **Phase 1 - Development**
 - **2026-03-25 RADAR2026-dev set released** (English, no labels, derivative of LlamaPartialSpoof)
 - **2026-04-01 (00:00 UTC) Development submission portal opens**
 - 2026-04-10 (23:59 UTC) Development submission portal closes  
@@ -135,7 +138,7 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 
 The development phase is intended to help participants validate their systems and familiarize themselves with the evaluation protocol. Results from Phase 1 (Development) will not affect the final ranking. The top 3 teams in the Development Phase will receive honorary mentions and certificates.
 
-### Phase 2 - Evaluation
+### **Phase 2 - Evaluation**
 - 2026-04-20 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
 - 2026-04-23 (00:00 UTC) Evaluation submission portal opens
 - 2026-04-30 (23:59 UTC) Evaluation submission portal closes
@@ -179,7 +182,7 @@ Some transformations used in the evaluation set will not appear in the developme
 
 Participants must submit one detection score per evaluation utterance (higher scores indicate higher confidence that the sample is spoofed). Leaderboard rankings are based on EER, with additional metrics possibly reported for further analysis.
 
-EER is selected due to its simplicity and widespread use in spoofing detection research. While participants are free to interpret their results based on the leaderboard, the organizers do not endorse or take responsibility for any performance claims made based on these results.
+EER is selected due to its simplicity and widespread use in spoofing detection research. While **participants are free to interpret their results** based on the leaderboard, the **organizers do not endorse or take responsibility for any performance claims** made based on these results.
 
 ## Baseline systems
 
@@ -238,9 +241,9 @@ Top-performing teams will receive certificates, and outstanding submissions will
 
 ### Q: Can we use pretrained models (e.g., SSL models) that may have been trained on datasets related to LibriTTS such as MLS?
 
-Yes. Publicly available pretrained models are allowed, even if they were trained on large public speech datasets.
+Yes. Publicly available pretrained models (Wave2Vec, WavLM, XLSR, etc.) are allowed, even if they were trained on large public speech datasets.
 
-However, participants must not explicitly train or fine-tune models using LibriTTS dev/test splits or any derivatives of the RADAR development or evaluation data.
+However, participants must not explicitly train or fine-tune models using LibriTTS dev/test splits or any derivatives of the RADAR development or evaluation data for the task of audio deepfake detection.
 
 
 ### Q: Can I use \[this dataset\] for training?
@@ -254,6 +257,6 @@ We recognize that some datasets (especially those derived from LibriSpeech/Libri
 - ASVspoof 2019 LA
 - ASVspoof 2021 LA/DF
 - ASVspoof5 (train split)
-- MLADD
+- MLAAD
 
 Participants may use these datasets with confidence for training their systems.
