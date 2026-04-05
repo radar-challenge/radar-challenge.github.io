@@ -38,6 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-04-05** Update to Phase 2 requirements: To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. The registration deadline has been updated to April 10.
 - **2026-04-03** The Phase 1 (Development) is in progress, if you haven't been approved to codabench, contact us asap. You may want to check the [Q&A section](#faqs) as well.
 - **2026-03-31** [Submission Portal](https://www.codabench.org/competitions/15279/) is open for Phase 1. The timeline for Phase 2 and paper submission has been changed/extended.
 - **2026-03-26** The Evaluation data will include speech in <ins>English</ins>, <ins>Mandarin</ins>, <ins>Japanese</ins>, and <ins>Vietnamese</ins>.
@@ -71,7 +72,7 @@ Only one member per team will be approved on Codabench.
 - **2026-03-15: Challenge announcement**
 - **2026-03-25: Phase 1 Started: Development data released**
 - ➤ **2026-04-10**: Phase 1 Ended: Development submission portal closes
-- ~~--2026-04-13--~~ **2026-04-15**: Registration Deadline  
+- ~~--2026-04-15--~~ **2026-04-10**: Registration Deadline  
 - ~~--2026-04-15--~~ **2026-04-20**: Phase 2 Started: Evaluation data released
 - ~~--2026-04-25--~~ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
 - ~~--2026-05-10--~~ **2026-05-15**: Paper submission  
@@ -139,6 +140,8 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 The development phase is intended to help participants validate their systems and familiarize themselves with the evaluation protocol. Results from Phase 1 (Development) will not affect the final ranking. The top 3 teams in the Development Phase will receive honorary mentions and certificates.
 
 ### **Phase 2 - Evaluation**
+To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. 
+
 - 2026-04-20 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
 - 2026-04-23 (00:00 UTC) Evaluation submission portal opens
 - 2026-04-30 (23:59 UTC) Evaluation submission portal closes
