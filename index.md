@@ -38,7 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
-- **2026-04-14** The label of RADAR2026-dev set has been sent to all participants. [The Baseline System](#baseline-systems) has been updated to include evaluation and analysis scripts to help with [paper writing](#paper-submission).
+- **2026-04-14** The labels for the RADAR2026-dev set have been sent to all participants. The [baseline system](#baseline-systems) has been updated with evaluation and analysis scripts to support your [paper writing](#paper-submission).
 - **2026-04-12** Phase 1 has ended with 25 teams advanced to Phase 2. Confirmation emails have been sent to eligble teams. Registration is now closed.
 - **2026-04-05** Update to Phase 2 requirements: To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. The registration deadline has been updated to April 10.
 - **2026-04-03** The Phase 1 (Development) is in progress, if you haven't been approved to codabench, contact us asap. You may want to check the [Q&A section](#faqs) as well.
@@ -51,7 +51,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 ---
 
 ## Paper Submission
-Any teams who has accessed to RADAR2026 development set and its label can submit their system description to APSIPA 2026. [The Baseline System](#baseline-systems) has been updated to include evaluation and analysis scripts to help with paper writing.
+Any teams who has accessed to RADAR2026 development set and its label can submit their system description to APSIPA 2026. The [baseline system](#baseline-systems) has been updated with evaluation and analysis scripts to support your [paper writing](#paper-submission).
 
 - [Paper Submission](https://www.apsipa2026.org/paper_submission.html)
 
@@ -60,7 +60,7 @@ Paper Submission deadline: **May 15, 2026**.
 Please choose **“Grand Challenge: RADAR - Robust Audio Deepfake Recognition under Media Transformations”** track when submitting which has less requirement about novelty and focus more on technical correctness.
 
 
-## Submission Portal
+## Competition Portal
 We use Codabench for submissions and the leaderboard:
 
 - [Codabench Competition Portal](https://www.codabench.org/competitions/15279/)
