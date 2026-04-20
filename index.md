@@ -38,6 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-04-20** The release of the RADAR2026-eval set has been postponed by two days to April 22, 2026.
 - **2026-04-14** The labels for the RADAR2026-dev set have been sent to all participants. The [baseline system](#baseline-systems) has been updated with evaluation and analysis scripts to support your [paper writing](#paper-submission).
 - **2026-04-12** Phase 1 has ended with 25 teams advanced to Phase 2. Confirmation emails have been sent to eligble teams. Registration is now closed.
 - **2026-04-05** Update to Phase 2 requirements: To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. The registration deadline has been updated to April 10.
@@ -156,7 +157,7 @@ The development phase is intended to help participants validate their systems an
 ### **Phase 2 - Evaluation**
 To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. 
 
-- 2026-04-20 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
+- ~~--2026-04-20--~~ 2026-04-22 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
 - 2026-04-23 (00:00 UTC) Evaluation submission portal opens
 - 2026-04-30 (23:59 UTC) Evaluation submission portal closes
 - 2026-05-15 Paper Submission Deadline
