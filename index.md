@@ -38,6 +38,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-04-23** Phase 2 has started! The evaluation dataset has been sent to eligible teams, and the [Submission Portal](https://www.codabench.org/competitions/15279/) is now open.
 - **2026-04-20** The release of the RADAR2026-eval set has been postponed by two days to April 22, 2026.
 - **2026-04-14** The labels for the RADAR2026-dev set have been sent to all participants. The [baseline system](#baseline-systems) has been updated with evaluation and analysis scripts to support your [paper writing](#paper-submission).
 - **2026-04-12** Phase 1 has ended with 25 teams advanced to Phase 2. Confirmation emails have been sent to eligble teams. Registration is now closed.
@@ -88,8 +89,8 @@ We welcome both academic and industry teams. Individual researchers are also enc
 - **2026-03-25: Phase 1 Started: Development data released**
 - **2026-04-10: Phase 1 Ended: Development submission portal closes**
 - ~~--2026-04-15--~~ **2026-04-10: Registration Deadline**
-- ~~--2026-04-15--~~ ➤ **2026-04-20**: Phase 2 Started: Evaluation data released
-- ~~--2026-04-25--~~ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
+- ~~--2026-04-15--~~ **2026-04-23: Phase 2 Started: Evaluation data released**
+- ~~--2026-04-25--~~ ➤ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
 - ~~--2026-05-10--~~ **2026-05-15**: Paper Submission Deadline
 - ~~--2026-06-01--~~ **2026-07-15**: Notification of paper acceptance  
 - ~~--2026-06-15--~~ **2026-07-31**: Camera-ready GC paper submission  
@@ -157,8 +158,8 @@ The development phase is intended to help participants validate their systems an
 ### **Phase 2 - Evaluation**
 To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. 
 
-- ~~--2026-04-20--~~ 2026-04-22 RADAR2026-eval set released (English, Mandarin, Japanese and Vietnamese)
-- 2026-04-23 (00:00 UTC) Evaluation submission portal opens
+- ~~--2026-04-20--~~ **2026-04-22 RADAR2026-eval set released** (English, Mandarin, Japanese and Vietnamese)
+- **2026-04-23 (00:00 UTC) Evaluation submission portal opens**
 - 2026-04-30 (23:59 UTC) Evaluation submission portal closes
 - 2026-05-15 Paper Submission Deadline
 
