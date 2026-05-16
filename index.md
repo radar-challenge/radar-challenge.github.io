@@ -38,28 +38,54 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-05-16** The competition has concluded following the paper submission deadline. **[Preliminary results](#competition-results)** and **[Challenge Papers](#challenge-papers)** are available on this page.
 - **2026-04-23** Phase 2 has started! The evaluation dataset has been sent to eligible teams, and the [Submission Portal](https://www.codabench.org/competitions/15279/) is now open.
 - **2026-04-20** The release of the RADAR2026-eval set has been postponed by two days to April 22, 2026.
 - **2026-04-14** The labels for the RADAR2026-dev set have been sent to all participants. The [baseline system](#baseline-systems) has been updated with evaluation and analysis scripts to support your [paper writing](#paper-submission).
-- **2026-04-12** Phase 1 has ended with 25 teams advanced to Phase 2. Confirmation emails have been sent to eligble teams. Registration is now closed.
+- **2026-04-12** Phase 1 has ended with 25 teams advanced to Phase 2. Confirmation emails have been sent to eligible teams. Registration is now closed.
 - **2026-04-05** Update to Phase 2 requirements: To be eligible for Phase 2, teams must have at least one Phase 1 submission with an EER below 37%. The registration deadline has been updated to April 10.
 - **2026-04-03** The Phase 1 (Development) is in progress, if you haven't been approved to codabench, contact us asap. You may want to check the [Q&A section](#faqs) as well.
 - **2026-03-31** [Submission Portal](https://www.codabench.org/competitions/15279/) is open for Phase 1. The timeline for Phase 2 and paper submission has been changed/extended.
 - **2026-03-26** The Evaluation data will include speech in <ins>English</ins>, <ins>Mandarin</ins>, <ins>Japanese</ins>, and <ins>Vietnamese</ins>.
-- **2026-03-25** Phase 1 started! Development data has been sent to registered participants via email. If you didn't received it or registered after this day, please contact organizers via email or Github Discussion.
+- **2026-03-25** Phase 1 started! Development data has been sent to registered participants via email. If you didn't receive it or registered after this day, please contact organizers via email or Github Discussion.
 - **2026-03-17** Registration form is ready
 - **2026-03-16** Landing Page is UP! 🎉
 
 ---
 
+## Competition Results
+
+These are **preliminary** results. Official results will be announced at **APSIPA ASC 2026** in **Hanoi, Vietnam**.
+
+| Team ID | Dev EER | Eval EER | Team ID | Dev EER | Eval EER | Team ID | Dev EER | Eval EER |
+| :-----: | ------: | -------: | :-----: | ------: | -------: | :-----: | ------: | -------: |
+| A | 1.27 | **5.67** | N | 29.77 | 14.92 | 27 | 37.75 | — |
+| B | 4.46 | **9.05** | O | 30.20 | — | 28 | 38.82 | — |
+| C | 4.63 | **5.10** | P | 31.62 | 20.23 | 29 | 40.96 | 36.92 |
+| D | 5.26 | 17.14 | Q | 32.03 | 53.58 | 30 | 41.36 | — |
+| E | 8.22 | 32.76 | R | 33.59 | — | 31 | 41.99 | — |
+| F | 9.87 | — | S | 34.44 | 17.34 | 32 | 47.37 | — |
+| G | 11.04 | **10.14** | T | 35.16 | 27.01 | 33 | 71.72 | — |
+| H | 11.12 | 18.12 | U | 35.37 | 32.39 |  |  |  |
+| I | 14.90 | 22.50 | V | 35.50 | — |  |  |  |
+| J | 16.03 | **8.04** | W | 35.81 | — |  |  |  |
+| K | 16.35 | 20.63 | X | 36.07 | — |  |  |  |
+| L | 19.58 | 23.43 | Y | 36.19 | 42.02 |  |  |  |
+| M | 20.27 | 16.47 | Z | 37.71 | 42.60 |  |  |  |
+
+## Challenge Papers
+- Overview: [RADAR Challenge 2026: Robust Audio Deepfake Recognition under Media Transformations](https://arxiv.org/abs/2605.09568)
+
+---
+
 ## Paper Submission
-Any teams who has accessed to RADAR2026 development set and its label can submit their system description to APSIPA 2026. The [baseline system](#baseline-systems) has been updated with evaluation and analysis scripts to support your [paper writing](#paper-submission).
+Teams that had access to the RADAR2026 development set and its labels could submit a system description to APSIPA 2026. The [baseline system](#baseline-systems) includes evaluation and analysis scripts for reproducibility and for drafting challenge papers.
 
-- [Paper Submission](https://www.apsipa2026.org/paper_submission.html)
+- [Paper Submission](https://www.apsipa2026.org/paper_submission.html) (APSIPA 2026)
 
-Paper Submission deadline: **May 15, 2026**.
+Paper submission deadline: ~~**May 15, 2026**~~ **(closed)**.
 
-Please choose **“Grand Challenge: RADAR - Robust Audio Deepfake Recognition under Media Transformations”** track when submitting which has less requirement about novelty and focus more on technical correctness.
+When submitting, authors selected the **“Grand Challenge: RADAR - Robust Audio Deepfake Recognition under Media Transformations”** track, which places more emphasis on technical correctness than on novelty.
 
 
 ## Competition Portal
@@ -90,9 +116,9 @@ We welcome both academic and industry teams. Individual researchers are also enc
 - **2026-04-10: Phase 1 Ended: Development submission portal closes**
 - ~~--2026-04-15--~~ **2026-04-10: Registration Deadline**
 - ~~--2026-04-15--~~ **2026-04-23: Phase 2 Started: Evaluation data released**
-- ~~--2026-04-25--~~ ➤ **2026-04-30**: Phase 2 Ended: Evaluation submission portal closes
-- ~~--2026-05-10--~~ **2026-05-15**: Paper Submission Deadline
-- ~~--2026-06-01--~~ **2026-07-15**: Notification of paper acceptance  
+- ~~--2026-04-25--~~ **2026-04-30: Phase 2 Ended: Evaluation submission portal closes**
+- ~~--2026-05-10--~~ **2026-05-15: Paper Submission Deadline**
+- ~~--2026-06-01--~~ ➤ **2026-07-15**: Notification of paper acceptance  
 - ~~--2026-06-15--~~ **2026-07-31**: Camera-ready GC paper submission  
 - **2026-11-09**: APSIPA conference presentation (Hanoi, Vietnam)
 
@@ -160,8 +186,8 @@ To be eligible for Phase 2, teams must have at least one Phase 1 submission with
 
 - ~~--2026-04-20--~~ **2026-04-22 RADAR2026-eval set released** (English, Mandarin, Japanese and Vietnamese)
 - **2026-04-23 (00:00 UTC) Evaluation submission portal opens**
-- 2026-04-30 (23:59 UTC) Evaluation submission portal closes
-- 2026-05-15 Paper Submission Deadline
+- **2026-04-30 (23:59 UTC) Evaluation submission portal closes**
+- **2026-05-15 Paper Submission Deadline**
 
 Results from Phase 2 (Evaluation) will determine the final ranking. Top-performing teams will be recognized at APSIPA ASC 2026 in Hanoi, Vietnam.
 
@@ -205,12 +231,12 @@ EER is selected due to its simplicity and widespread use in spoofing detection r
 
 ## Baseline systems
 
-We will release one or more baseline systems to help participants get started and to illustrate the expected data pipeline and submission format.
+We released a baseline system to help participants get started and to illustrate the expected data pipeline and submission format.
 
-Organizers may also submit scores and description papers to guide the challenge. Any results submitted by organizers will be **excluded** from the final ranking.
+Organizers could also submit scores and description papers for guidance; those organizer entries were **excluded** from the final ranking.
 
 ### 01. [SSL AASIST Antispoofing](https://github.com/radar-challenge/BASELINE-SSL_AASIST)
-The first baseline system that demonstrates expected submission format. It has been updated to include offline evaluation and analysis scripts.
+This baseline demonstrates the expected submission format and includes offline evaluation and analysis scripts.
 
 ## Awards
 
@@ -272,7 +298,7 @@ We only restrict the use of LlamaPartialSpoof, LibriTTS dev/test sets, and their
 We recognize that some datasets (especially those derived from LibriSpeech/LibriTTS) may contain overlapping speakers or recordings. To avoid unnecessary restrictions, we explicitly allow the use of the following datasets for training, even if partial overlap may exist:
 - LibriTTS (train split)
 - LibriSpeech (train split)
-- Multlingual LibriSpeech (MLS)
+- Multilingual LibriSpeech (MLS)
 - ASVspoof 2019 LA
 - ASVspoof 2021 LA/DF
 - ASVspoof5 (train split)
