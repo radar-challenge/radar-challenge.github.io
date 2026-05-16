@@ -13,17 +13,24 @@ layout: default
   /* Keep organizer cards readable (not justified). */
   .organizers p, .page-content .organizers p { text-align: center; }
 
-  /* Preliminary results: top teams by evaluation EER (lower is better). */
-  span.eval-top {
-    display: inline-block;
-    background-color: rgba(30, 58, 138, 0.14);
-    color: #1e3a8a;
-    font-weight: 600;
-    padding: 0.1em 0.35em;
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 1px rgba(30, 58, 138, 0.35);
+  /* Preliminary results: top-5 eval EER% — highlight entire cell (first block, Eval = column 3). */
+  table.radar-results tbody tr:nth-child(1) td:nth-child(3),
+  table.radar-results tbody tr:nth-child(2) td:nth-child(3),
+  table.radar-results tbody tr:nth-child(3) td:nth-child(3),
+  table.radar-results tbody tr:nth-child(7) td:nth-child(3),
+  table.radar-results tbody tr:nth-child(10) td:nth-child(3) {
+    background-color: rgba(30, 58, 138, 0.22) !important;
+    box-shadow: inset 0 0 0 2px rgba(30, 58, 138, 0.42);
   }
 
+  /* Baseline team ID: compact suffix. */
+  .team-baseline {
+    font-size: 0.72em;
+    font-weight: 400;
+    margin-left: 0.2em;
+    opacity: 0.88;
+    vertical-align: 0.05em;
+  }
   /* Results table: three column-groups (ranks 1–13 | 14–26 | 27–33). */
   table.radar-results th:nth-child(-n+3),
   table.radar-results td:nth-child(-n+3) {
@@ -90,19 +97,19 @@ These are **preliminary** results. Official results will be announced at **APSIP
 
 | Team ID | Dev EER% | Eval EER% | Team ID | Dev EER% | Eval EER% | Team ID | Dev EER% | Eval EER% |
 | :---------: | -------: | --------: | :---------: | -------: | --------: | :---------: | -------: | --------: |
-| **A** | 1.27 | <span class="eval-top">5.67</span> | **N** | 29.77 | 14.92 | **27** | 37.75 | — |
-| **B** | 4.46 | <span class="eval-top">9.05</span> | **O** | 30.20 | — | **28** | 38.82 | — |
-| **C** | 4.63 | <span class="eval-top">5.10</span> | **P** | 31.62 | 20.23 | **29** | 40.96 | 36.92 |
+| **A** | 1.27 | 5.67 | **N** | 29.77 | 14.92 | **27** | 37.75 | — |
+| **B** | 4.46 | 9.05 | **O** | 30.20 | — | **28** | 38.82 | — |
+| **C** | 4.63 | 5.10 | **P** | 31.62 | 20.23 | **29** | 40.96 | 36.92 |
 | **D** | 5.26 | 17.14 | **Q** | 32.03 | 53.58 | **30** | 41.36 | — |
 | **E** | 8.22 | 32.76 | **R** | 33.59 | — | **31** | 41.99 | — |
 | **F** | 9.87 | — | **S** | 34.44 | 17.34 | **32** | 47.37 | — |
 | **G** | 11.04 | <span class="eval-top">10.14</span> | **T** | 35.16 | 27.01 | **33** | 71.72 | — |
 | **H** | 11.12 | 18.12 | **U** | 35.37 | 32.39 |  |  |  |
 | **I** | 14.90 | 22.50 | **V** | 35.50 | — |  |  |  |
-| **J** | 16.03 | <span class="eval-top">8.04</span> | **W** | 35.81 | — |  |  |  |
+| **J** | 16.03 | 8.04 | **W** | 35.81 | — |  |  |  |
 | **K** | 16.35 | 20.63 | **X** | 36.07 | — |  |  |  |
 | **L** | 19.58 | 23.43 | **Y** | 36.19 | 42.02 |  |  |  |
-| **M** | 20.27 | 16.47 | **Z (baseline)** | 37.71 | 42.60 |  |  |  |
+| **M** | 20.27 | 16.47 | **Z** <span class="team-baseline">(baseline)</span> | 37.71 | 42.60 |  |  |  |
 {: .radar-results}
 
 *Highlighted cells are the five lowest Eval EER% values among teams with an evaluation score (lower is better). Values match the Codabench leaderboard format.*
