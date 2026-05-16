@@ -14,7 +14,15 @@ layout: default
   .organizers p, .page-content .organizers p { text-align: center; }
 
   /* Preliminary results: top teams by evaluation EER (lower is better). */
-  span.eval-top { background-color: #fff3cd; padding: 0.1em 0.3em; border-radius: 3px; }
+  span.eval-top {
+    display: inline-block;
+    background-color: rgba(30, 58, 138, 0.14);
+    color: #1e3a8a;
+    font-weight: 600;
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(30, 58, 138, 0.35);
+  }
 
   /* Results table: three column-groups (ranks 1–13 | 14–26 | 27–33). */
   table.radar-results th:nth-child(-n+3),
@@ -94,7 +102,7 @@ These are **preliminary** results. Official results will be announced at **APSIP
 | **J** | 16.03 | <span class="eval-top">8.04</span> | **W** | 35.81 | — |  |  |  |
 | **K** | 16.35 | 20.63 | **X** | 36.07 | — |  |  |  |
 | **L** | 19.58 | 23.43 | **Y** | 36.19 | 42.02 |  |  |  |
-| **M** | 20.27 | 16.47 | **Z** | 37.71 | 42.60 |  |  |  |
+| **M** | 20.27 | 16.47 | **Z (baseline)** | 37.71 | 42.60 |  |  |  |
 {: .radar-results}
 
 *Highlighted cells are the five lowest Eval EER% values among teams with an evaluation score (lower is better). Values match the Codabench leaderboard format.*
