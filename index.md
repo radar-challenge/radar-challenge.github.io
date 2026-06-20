@@ -71,11 +71,12 @@ RADAR aims to establish a benchmark for media-robust audio deepfake detection an
 
 ## Venue
 
-RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.apsipa2026.org/grand_challenges.html) and will be presented at **APSIPA ASC 2026 in Hanoi, Vietnam**.
+RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.apsipa2026.org/grand_challenges.html) and will be presented at **APSIPA ASC 2026 in Bangkok, Thailand**.
 
 
 ## Quick Updates
 - ...
+- **2026-06-20** The APSIPA ASC 2026 has been moved to Bangkok, Thailand. The paper submission deadline has been extended to 30 June.
 - **2026-05-16** The competition has concluded following the paper submission deadline. **[Preliminary results](#competition-results)** and **[Challenge Papers](#challenge-papers)** are available on this page.
 - **2026-04-23** Phase 2 has started! The evaluation dataset has been sent to eligible teams, and the [Submission Portal](https://www.codabench.org/competitions/15279/) is now open.
 - **2026-04-20** The release of the RADAR2026-eval set has been postponed by two days to April 22, 2026.
@@ -93,7 +94,14 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Competition Results
 
-These are **preliminary** results. Official results will be announced at **APSIPA ASC 2026** in **Hanoi, Vietnam**.
+<p style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/images/leaderboard.png" alt="RADAR Challenge 2026 leaderboard scatter plot: Development EER (English) vs. Evaluation EER (multilingual)" style="max-width: 720px; width: 100%; height: auto;">
+</p>
+
+*Blue: Phase 1 &amp; 2 participants; orange: Phase 1 only; red: baseline (Z)*
+
+
+These are **preliminary** results. Official results will be announced at **APSIPA ASC 2026** in **Bangkok, Thailand**.
 
 | Team ID | Dev EER% | Eval EER% | Team ID | Dev EER% | Eval EER% | Team ID | Dev EER% | Eval EER% |
 | :---------: | -------: | --------: | :---------: | -------: | --------: | :---------: | -------: | --------: |
@@ -114,6 +122,7 @@ These are **preliminary** results. Official results will be announced at **APSIP
 
 *Highlighted cells are the five lowest Eval EER% values among teams with an evaluation score (lower is better). Values match the Codabench leaderboard format.*
 
+
 ## Challenge Papers
 - Overview: [RADAR Challenge 2026: Robust Audio Deepfake Recognition under Media Transformations](https://arxiv.org/abs/2605.09568)
 
@@ -124,7 +133,7 @@ Teams that had access to the RADAR2026 development set and its labels could subm
 
 - [Paper Submission](https://www.apsipa2026.org/paper_submission.html) (APSIPA 2026)
 
-Paper submission deadline: ~~**May 15, 2026**~~ **(closed)**.
+Paper submission deadline: **June 30, 2026**.
 
 When submitting, authors selected the **“Grand Challenge: RADAR - Robust Audio Deepfake Recognition under Media Transformations”** track, which places more emphasis on technical correctness than on novelty.
 
@@ -161,7 +170,7 @@ We welcome both academic and industry teams. Individual researchers are also enc
 - ~~--2026-05-10--~~ **2026-05-15: Paper Submission Deadline**
 - ~~--2026-06-01--~~ ➤ **2026-07-15**: Notification of paper acceptance  
 - ~~--2026-06-15--~~ **2026-07-31**: Camera-ready GC paper submission  
-- **2026-11-09**: APSIPA conference presentation (Hanoi, Vietnam)
+- **2026-11-09**: APSIPA conference presentation (Bangkok, Thailand)
 
 
 
@@ -228,9 +237,9 @@ To be eligible for Phase 2, teams must have at least one Phase 1 submission with
 - ~~--2026-04-20--~~ **2026-04-22 RADAR2026-eval set released** (English, Mandarin, Japanese and Vietnamese)
 - **2026-04-23 (00:00 UTC) Evaluation submission portal opens**
 - **2026-04-30 (23:59 UTC) Evaluation submission portal closes**
-- **2026-05-15 Paper Submission Deadline**
+- 2026-06-30 Paper Submission Deadline
 
-Results from Phase 2 (Evaluation) will determine the final ranking. Top-performing teams will be recognized at APSIPA ASC 2026 in Hanoi, Vietnam.
+Results from Phase 2 (Evaluation) will determine the final ranking. Top-performing teams will be recognized at APSIPA ASC 2026 in Bangkok, Thailand.
 
 ## Media Transformations
 Examples of media transformation
@@ -283,7 +292,7 @@ This baseline demonstrates the expected submission format and includes offline e
 
 This is an academic challenge without monetary prizes.  
 
-Top-performing teams will receive certificates, and outstanding submissions will be recognized at APSIPA 2026 in Hanoi, Vietnam.
+Top-performing teams will receive certificates, and outstanding submissions will be recognized at APSIPA 2026 in Bangkok, Thailand.
 
 ---
 
