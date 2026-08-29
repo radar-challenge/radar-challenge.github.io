@@ -76,6 +76,7 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 
 ## Quick Updates
 - ...
+- **2026-08-29** The RADAR Challenge 2026 dataset is now available to [download from Zenodo](https://zenodo.org/records/22110815).
 - **2026-06-20** The APSIPA ASC 2026 has been moved to Bangkok, Thailand. The paper submission deadline has been extended to 30 June.
 - **2026-05-16** The competition has concluded following the paper submission deadline. **[Preliminary results](#competition-results)** and **[Challenge Papers](#challenge-papers)** are available on this page.
 - **2026-04-23** Phase 2 has started! The evaluation dataset has been sent to eligible teams, and the [Submission Portal](https://www.codabench.org/competitions/15279/) is now open.
@@ -91,6 +92,13 @@ RADAR Challenge 2026 is organized as an [APSIPA Grand Challenge](https://www.aps
 - **2026-03-16** Landing Page is UP! 🎉
 
 ---
+
+## Download Dataset
+
+The RADAR Challenge 2026 dataset is publicly available on Zenodo:
+
+- **[Download the RADAR Challenge 2026 dataset](https://zenodo.org/records/22110815)**
+
 
 ## Competition Results
 
@@ -208,6 +216,8 @@ We strongly encourage participants to use GitHub Discussions so answers benefit 
 ---
 
 ## Dataset & Protocol
+
+- **[Download the RADAR Challenge 2026 dataset from Zenodo](https://zenodo.org/records/22110815)**
 
 - **Development set**
   - English speech derived from [LlamaPartialSpoof](https://hieuthi.github.io/sample-LlamaPartialSpoof/) with additional media transformations applied. (Only the full-fake subset of LlamaPartialSpoof will be used)
